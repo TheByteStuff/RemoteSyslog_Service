@@ -43,7 +43,7 @@ File | Purpose
 3. In the `custom_components` directory (folder) create a new folder called `remote_syslog`.
 4. Download _all_ the files from the `custom_components/remote_syslog/` directory (folder) in this repository.
 5. Place the files you downloaded in the new directory (folder) you created.
-6. Add "remote_syslogger:" to configuration.yaml.
+6. Add "remote_syslog:" to configuration.yaml.
 7. Restart Home Assistant
 8. In the HA UI go to "Configuration" -> "Automations", create a mew automation and review service options for Actions.
 
