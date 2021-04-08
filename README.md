@@ -28,7 +28,6 @@ File | Purpose
 `tests/test_syslogger_udp.py` | Tests for `custom_components/remote_syslog/syslogger_udp.py`.
 `CONTRIBUTING.md` | Guidelines on how to contribute.
 `AutomationsExample.png` | Screenshot from Automations 'Call Service'.
-`info.md` | An example on a info file (used by [hacs][hacs]).
 `LICENSE` | The license file for the project.
 `README.md` | The file you are reading now.
 `requirements.txt` | Python packages used by this integration.
