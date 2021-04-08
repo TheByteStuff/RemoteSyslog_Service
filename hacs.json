@@ -1,8 +1,8 @@
   "name": "remote_syslogger",
   "content_in_root" : false,
   "zip_release" : false,
-  "render_readme": true,
   "domains": ["automation", "script"],
   "country": "US",
-  "homeassistant": "2021.3.4"
+  "homeassistant": "2021.3.4",
+  "render_readme": true
 }
