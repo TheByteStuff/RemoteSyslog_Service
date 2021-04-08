@@ -1,5 +1,5 @@
   "name": "remote_syslogger",
-  "content_in_root" : false,
+  "content_in_root" : true,
   "zip_release" : false,
   "domains": ["automation", "script"],
   "country": "US",
