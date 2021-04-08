@@ -1,0 +1,5 @@
+tests/__pycache__/**
+custom_components/remote_syslog/__pycache__/**
+*.bak
+tests/*.bak
+custom_components/remote_syslog/*.bak

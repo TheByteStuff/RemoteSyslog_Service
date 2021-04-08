@@ -1,0 +1,119 @@
+# remote_syslog services.yaml entry
+
+# Service ID
+logmessage:
+  # Service name as shown in UI
+  name: Remote syslogger
+  # Description of the service
+  description: Log message to remote syslog server.
+  # If the service accepts entity IDs, target allows the user to specify entities by entity, device, or area. If `target` is specified, `entity_id` should not be defined in the `fields` map. By default it shows only targets matching entities from the same domain as the service, but if further customization is required, target supports the entity, device, and area selectors (https://www.home-assistant.io/docs/blueprint/selectors/). Entity selector parameters will automatically be applied to device and area, and device selector parameters will automatically be applied to area. 
+  #target:
+  # Different fields that your service accepts
+  fields:
+    # Key of the field
+    host:
+      name: host
+      description: Syslog Server Host (ip address/domain)
+      required: true
+      advanced: false
+      example: "127.0.0.1"
+      default: "127.0.0.1"
+      selector:
+       text: 
+    port:
+      name: port
+      description: Syslog Server Port
+      required: true
+      advanced: false
+      example: 514
+      default: 514
+      selector:
+       number:
+        min: 0
+        max: 65535
+    protocol:
+      name: protocol
+      description: Syslog Server Protocol (UDP/TCP)
+      required: true
+      advanced: false
+      example: "UDP"
+      default: "UDP"
+      selector:
+        select:
+          options:
+            - "UDP"
+            - "TCP"
+    facility:
+      name: facility
+      description: Syslog Server Facility
+      required: true
+      advanced: false
+      example: "USER"
+      default: "USER"
+      selector:
+        select:
+          options:
+            - "KERN"
+            - "USER"            
+            - "MAIL"            
+            - "DAEMON"            
+            - "AUTH"            
+            - "SYSLOG"            
+            - "LPR"            
+            - "NEWS"            
+            - "UUCP"            
+            - "CRON"            
+            - "AUTHPRIV"            
+            - "FTP"            
+            - "LOCAL0"
+            - "LOCAL1"            
+            - "LOCAL2"            
+            - "LOCAL3"            
+            - "LOCAL4"            
+            - "LOCAL5"            
+            - "LOCAL6"            
+            - "LOCAL7"    
+    program:
+      name: program
+      description: Syslog Program
+      required: true
+      advanced: false
+      example: "hascript"
+      default: "hascript"
+      selector:
+       text:             
+    message:
+      name: message
+      description: The message to be logged
+      required: true
+      advanced: false
+      example: "An action has triggered."
+      default: "Log message."
+      selector:
+       text:
+      
+    loglevel:
+      # Field name as shown in UI
+      name: loglevel
+      # Description of the field
+      description: The log level per sys log definition
+      # Whether or not field is required
+      required: true
+      # Advanced options are only shown when the advanced mode is enabled for the user
+      advanced: false
+      # Example value that can be passed for this field
+      example: "info"
+      # The default value
+      default: "info"
+      # Selector (https://www.home-assistant.io/docs/blueprint/selectors/) to control the input UI for this field
+      selector:
+        select:
+          options:
+            - "debug"
+            - "info"
+            - "notice"
+            - "warning"
+            - "err"
+            - "crit"
+            - "alert"
+            - "emerg"

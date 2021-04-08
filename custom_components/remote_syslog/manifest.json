@@ -1,0 +1,13 @@
+{
+  "domain": "remote_syslog",
+  "name": "Remote Syslogger",
+  "version": "1.0.0",
+  "documentation": "https://github.com/thebytestuff/haremotesyslog",
+  "issue_tracker": "https://github.com/thebytestuff/haremotesyslog/issues",
+  "dependencies": [],
+  "after_dependencies": ["http"],
+  "codeowners": ["@thebytestuff"],
+  "requirements": [],
+  "config_flow": false,
+  "quality_scale": "No score"
+}
