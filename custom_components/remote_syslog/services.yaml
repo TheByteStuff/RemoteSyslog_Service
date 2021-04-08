@@ -75,7 +75,7 @@ logmessage:
             - "LOCAL7"    
     program:
       name: program
-      description: Syslog Program
+      description: Syslog Program (no spaces)
       required: true
       advanced: false
       example: "hascript"
