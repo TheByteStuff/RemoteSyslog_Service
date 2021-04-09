@@ -7,6 +7,7 @@ Send log messages to a Syslog Server using UDP or TCP protocol.
 
 Messages are delivered in in BSD (legacy Syslog) format.  User may select Facility, Log Level, program.  
 
+![Automation Service Call Screenshot](https://github.com/TheByteStuff/RemoteSyslog_Service/blob/main/AutomationsExample.png)
 
 ## What?
 
