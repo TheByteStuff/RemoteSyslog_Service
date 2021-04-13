@@ -1,3 +1,4 @@
+{
   "name": "remote_syslog",
   "content_in_root" : false,
   "zip_release" : false,
