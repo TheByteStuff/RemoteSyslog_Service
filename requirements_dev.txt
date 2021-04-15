@@ -1,1 +1,2 @@
 homeassistant
+python3-testresources

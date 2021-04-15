@@ -30,6 +30,7 @@ File | Purpose
 `CONTRIBUTING.md` | Guidelines on how to contribute.
 `AutomationsExample.png` | Screenshot from Automations 'Call Service'.
 `LICENSE` | The license file for the project.
+`info.md` | Information file displayed in HACS.
 `README.md` | The file you are reading now.
 `requirements.txt` | Python packages used by this integration.
 `requirements_dev.txt` | Python packages used to provide [IntelliSense](https://code.visualstudio.com/docs/editor/intellisense)/code hints during development of this integration, typically includes packages in `requirements.txt` but may include additional packages
