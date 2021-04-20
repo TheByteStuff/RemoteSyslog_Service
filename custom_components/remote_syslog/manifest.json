@@ -8,6 +8,5 @@
   "after_dependencies": ["http"],
   "codeowners": ["@thebytestuff"],
   "requirements": [],
-  "config_flow": false,
-  "quality_scale": "No score"
+  "config_flow": false
 }

@@ -81,8 +81,7 @@ logmessage:
       example: "hascript"
       default: "hascript"
       selector:
-       text:  
-       pattern: "[a-fA-F0-9]*"           
+       text:            
     message:
       name: message
       description: The message to be logged
