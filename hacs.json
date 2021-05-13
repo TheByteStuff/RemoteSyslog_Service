@@ -5,6 +5,6 @@
   "domains": ["automation", "script"],
   "country": "US",
   "homeassistant": "2021.3.4",
-  "iot_class": ["Assumed State"],
+  "iot_class": "Assumed State",
   "render_readme": true
 }

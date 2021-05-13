@@ -2,12 +2,12 @@
   "domain": "remote_syslog",
   "name": "Remote Syslogger",
   "version": "1.0.0",
-  "documentation": "https://github.com/thebytestuff/haremotesyslog",
-  "issue_tracker": "https://github.com/thebytestuff/haremotesyslog/issues",
+  "documentation": "https://github.com/thebytestuff/RemoteSyslog_Service",
+  "issue_tracker": "https://github.com/thebytestuff/RemoteSyslog_Service/issues",
   "dependencies": [],
   "after_dependencies": ["http"],
   "codeowners": ["@thebytestuff"],
   "requirements": [],
-  "iot_class": ["Assumed State"],  
+  "iot_class": "Assumed State",  
   "config_flow": false
 }
