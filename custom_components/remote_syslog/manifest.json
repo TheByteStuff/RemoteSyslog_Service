@@ -8,5 +8,6 @@
   "after_dependencies": ["http"],
   "codeowners": ["@thebytestuff"],
   "requirements": [],
+  "iot_class": ["Assumed State"],  
   "config_flow": false
 }
