@@ -1,4 +1,4 @@
-# Log to Remove Syslog Server
+# Log to Remote Syslog Server
 
 [![Type](https://img.shields.io/badge/Type-Custom_Component-orange.svg)](https://github.com/TheByteStuff/RemoteSyslog_Service)
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
