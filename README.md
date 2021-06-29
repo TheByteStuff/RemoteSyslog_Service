@@ -36,7 +36,7 @@ File | Purpose
 `requirements_dev.txt` | Python packages used to provide [IntelliSense](https://code.visualstudio.com/docs/editor/intellisense)/code hints during development of this integration, typically includes packages in `requirements.txt` but may include additional packages
 
 
-## Installation
+## Installation (manual)
 
 
 1. Using the tool of choice open the directory (folder) for your HA configuration (where you find `configuration.yaml`).
@@ -46,7 +46,7 @@ File | Purpose
 5. Place the files you downloaded in the new directory (folder) you created.
 6. Add "remote_syslog:" to configuration.yaml.
 7. Restart Home Assistant
-8. In the HA UI go to "Configuration" -> "Automations", create a mew automation and review service options for Actions.
+8. In the HA UI go to "Configuration" -> "Automations", create a new automation and review service options for Actions.
 
 
 Using your HA configuration directory (folder) as a starting point you should now also have this:
@@ -59,6 +59,15 @@ custom_components/remote_syslog/syslogger_tcp.py
 custom_components/remote_syslog/syslogger_udp.py
 custom_components/remote_syslog/sysloggercommon.py
 ```
+
+
+## Installation (HACS)
+
+
+1. Add the "remote_syslog" repository from the HACS/Integrations/"Explore & Add Repositories" button.
+2. Add "remote_syslog:" to configuration.yaml.
+3. Restart Home Assistant
+4. In the HA UI go to "Configuration" -> "Automations", create a new automation and review service options for Actions.
 
 
 ## Usage
