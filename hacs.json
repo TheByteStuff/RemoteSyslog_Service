@@ -4,6 +4,5 @@
   "zip_release" : false,
   "country": "US",
   "homeassistant": "2021.3.4",
-  "iot_class": "Assumed State",
   "render_readme": true
 }
