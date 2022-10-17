@@ -7,7 +7,11 @@ Send log messages from an event to a Syslog Server using UDP or TCP protocol.  (
 
 Messages are delivered in in BSD (legacy Syslog) format.  User may select Facility, Log Level, program.  
 
+Set up/Test from  Developer Tools:
 ![Automation Service Call Screenshot](https://github.com/TheByteStuff/RemoteSyslog_Service/blob/main/AutomationsExample.png)
+
+Example of use in an Automation which logs when a garage door has been open for an hour:
+![Garage Door Open Example](https://github.com/TheByteStuff/RemoteSyslog_Service/blob/main/GarageDoorOpenExample.png)
 
 ## What?
 
