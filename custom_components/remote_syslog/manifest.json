@@ -1,13 +1,13 @@
 {
   "domain": "remote_syslog",
   "name": "Remote Syslogger",
-  "version": "1.0.0",
-  "documentation": "https://github.com/thebytestuff/RemoteSyslog_Service",
-  "issue_tracker": "https://github.com/thebytestuff/RemoteSyslog_Service/issues",
-  "dependencies": [],
   "after_dependencies": ["http"],
   "codeowners": ["@thebytestuff"],
+  "config_flow": false,  
+  "dependencies": [],
+  "documentation": "https://github.com/thebytestuff/RemoteSyslog_Service",
+  "iot_class": "assumed_state",    
+  "issue_tracker": "https://github.com/thebytestuff/RemoteSyslog_Service/issues",
   "requirements": [],
-  "iot_class": "assumed_state",  
-  "config_flow": false
+  "version": "1.0.0"
 }
